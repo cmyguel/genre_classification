@@ -1,0 +1,35 @@
+{
+    "os": "macOS-10.15.7-x86_64-i386-64bit",
+    "python": "3.8.12",
+    "heartbeatAt": "2021-11-16T15:49:11.369158",
+    "startedAt": "2021-11-16T15:49:09.597164",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--train_data",
+        "data_train.csv:latest",
+        "--model_config",
+        "/Users/cristiandeltoro/Documents/COURSES/udacity-MLOps/genre_classification/outputs/2021-11-16/10-41-52/random_forest_config.yml",
+        "--export_artifact",
+        "model_export",
+        "--random_seed",
+        "42",
+        "--val_size",
+        "0.3",
+        "--stratify",
+        "genre"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "random_forest/run.py",
+    "git": {
+        "remote": "git@github.com:cmyguel/genre_classification.git",
+        "commit": "1e52a918424fae807d1a6cb454eba0a1c679eb59"
+    },
+    "email": "cristiandltro@gmail.com",
+    "root": "/Users/cristiandeltoro/Documents/COURSES/udacity-MLOps/genre_classification",
+    "host": "Factored-C02DR499P3XY.local",
+    "username": "cristiandeltoro",
+    "executable": "/Users/cristiandeltoro/opt/anaconda3/envs/mlflow-e38a66e56027dd29fa4c051140d2b45993a7fa9c/bin/python"
+}

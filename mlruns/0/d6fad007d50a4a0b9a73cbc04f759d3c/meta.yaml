@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/cristiandeltoro/Documents/COURSES/udacity-MLOps/genre_classification/mlruns/0/d6fad007d50a4a0b9a73cbc04f759d3c/artifacts
+end_time: 1637077892615
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: d6fad007d50a4a0b9a73cbc04f759d3c
+run_uuid: d6fad007d50a4a0b9a73cbc04f759d3c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1637077309436
+status: 3
+tags: []
+user_id: cristiandeltoro

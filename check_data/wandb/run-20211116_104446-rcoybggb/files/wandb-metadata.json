@@ -1,0 +1,31 @@
+{
+    "os": "macOS-10.15.7-x86_64-i386-64bit",
+    "python": "3.9.7",
+    "heartbeatAt": "2021-11-16T15:44:47.861077",
+    "startedAt": "2021-11-16T15:44:46.203665",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "-s",
+        "-vv",
+        ".",
+        "--reference_artifact",
+        "exercise_14/preprocessed_data.csv:latest",
+        "--sample_artifact",
+        "preprocessed_data.csv:latest",
+        "--ks_alpha",
+        "0.05"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "git@github.com:cmyguel/genre_classification.git",
+        "commit": "1e52a918424fae807d1a6cb454eba0a1c679eb59"
+    },
+    "email": "cristiandltro@gmail.com",
+    "root": "/Users/cristiandeltoro/Documents/COURSES/udacity-MLOps/genre_classification",
+    "host": "Factored-C02DR499P3XY.local",
+    "username": "cristiandeltoro",
+    "executable": "/Users/cristiandeltoro/opt/anaconda3/envs/mlflow-7398531e5288219e428182dc4d6601ae57991d39/bin/python"
+}
